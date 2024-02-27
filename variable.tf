@@ -10,7 +10,7 @@ variable "sudnet_cidr" {
   type = string
 
 }
-variable "ami" {
+variable "ami-id" {
   type = string
   default = "ami-0e5f882be1900e43b"
   
